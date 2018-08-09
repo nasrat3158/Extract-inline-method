@@ -1,0 +1,15 @@
+﻿<Window x:Class="Extract_Inline_Method.ExtractMethodWindow"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Extract_Inline_Method"
+             mc:Ignorable="d" Height="168.8" Width="378.4">
+    <Grid Margin="0,0,0,0.2">
+        <DockPanel HorizontalAlignment="Left" LastChildFill="False" Margin="10,10,0,10" Width="352">
+            <Label x:Name="label" Content="Method Name:" Height="30" VerticalAlignment="Top" Width="100" Margin="0,10,0,0"/>
+            <TextBox x:Name="textBox" TextWrapping="Wrap" Text="" Width="247" Margin="0,10,0,0" Height="30" VerticalAlignment="Top"/>
+        </DockPanel>
+        <Button x:Name="button" Content="Extract" Height="37" Margin="86,0,86,28.2" VerticalAlignment="Bottom" Click="button_Click"/>
+    </Grid>
+</Window>
